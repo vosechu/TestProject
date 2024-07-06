@@ -2,7 +2,7 @@
 
 require './spec/spec_helper'
 
-describe TestProject do
+RSpec.describe TestProject do
   subject { described_class.new }
 
   it 'does x' do
