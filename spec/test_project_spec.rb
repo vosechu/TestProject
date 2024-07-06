@@ -1,13 +1,11 @@
+# frozen_string_literal: true
+
 require './spec/spec_helper'
 
 describe TestProject do
-  subject { TestProject.new }
+  subject { described_class.new }
 
-  before do
-
-  end
-
-  it "does x" do
-    expect(subject.bananas).to eq("bananas")
+  it 'does x' do
+    expect(subject.bananas).to eq('bananas')
   end
 end
