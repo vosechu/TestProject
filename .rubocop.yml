@@ -17,6 +17,7 @@ AllCops:
   Exclude:
     - 'vendor/**/*'
     - 'Guardfile'
+  NewCops: enable
 
 Style/Documentation:
   Enabled: false
