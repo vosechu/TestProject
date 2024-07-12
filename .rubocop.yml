@@ -27,3 +27,9 @@ RSpec:
 
 RSpec/NamedSubject:
   Enabled: false
+
+RSpec/ExampleLength:
+  Max: 20
+
+RSpec/MultipleExpectations:
+  Enabled: false
