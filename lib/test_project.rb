@@ -11,7 +11,6 @@ class TestProject
   end
 
   def bananas
-    puts @options
     'bananas'
   end
 
