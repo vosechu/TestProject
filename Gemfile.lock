@@ -8,6 +8,7 @@ GEM
       reline (>= 0.3.8)
     diff-lcs (1.5.1)
     ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0-x86_64-linux-gnu)
     formatador (1.1.0)
     guard (2.18.1)
       formatador (>= 0.2.4)
@@ -57,7 +58,7 @@ GEM
     regexp_parser (2.9.2)
     reline (0.5.9)
       io-console (~> 0.5)
-    rexml (3.3.5)
+    rexml (3.3.6)
       strscan
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
@@ -97,6 +98,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-23
+  x86_64-linux
 
 DEPENDENCIES
   debug
