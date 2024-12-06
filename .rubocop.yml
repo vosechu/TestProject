@@ -33,3 +33,8 @@ RSpec/ExampleLength:
 
 RSpec/MultipleExpectations:
   Enabled: false
+
+# Enable rspec-style multi-line {}
+Style/BlockDelimiters:
+  Exclude:
+    - 'spec/**/*'
