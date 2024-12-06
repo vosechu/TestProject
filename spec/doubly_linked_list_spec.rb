@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # require 'doubly_linked_list'
 
 # RSpec.describe DoublyLinkedList do

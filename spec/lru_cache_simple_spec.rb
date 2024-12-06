@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'lru_cache_simple'
 
 RSpec.describe LruCacheSimple do

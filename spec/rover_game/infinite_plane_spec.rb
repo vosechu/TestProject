@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rover_game'
 
 RSpec.describe InfinitePlane do

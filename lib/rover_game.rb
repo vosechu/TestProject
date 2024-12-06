@@ -34,6 +34,4 @@ class RoverGame
 end
 
 # Run this code only when started from the command-line
-if __FILE__ == $PROGRAM_NAME
-  RoverGame.new.run
-end
+RoverGame.new.run if __FILE__ == $PROGRAM_NAME

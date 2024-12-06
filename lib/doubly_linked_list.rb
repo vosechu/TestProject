@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class DoublyLinkedList
   include Enumerable
 
@@ -27,7 +29,7 @@ class DoublyLinkedList
   end
 
   def <=>(other)
-    return nil unless other.is_a?(DoublyLinkedList)
+    nil unless other.is_a?(DoublyLinkedList)
 
     # TODO: compare each element
     # @items <=> other.items
@@ -37,12 +39,11 @@ class DoublyLinkedList
     new_node = Node.new(value)
     if @head.nil?
       @head = new_node
-      @tail = new_node
     else
       @tail.next = new_node
       new_node.prev = @tail
-      @tail = new_node
     end
+    @tail = new_node
   end
 
   def unshift(value)

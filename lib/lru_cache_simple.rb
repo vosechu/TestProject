@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class LruCacheSimple
   attr_reader :max_size
 
@@ -22,7 +24,6 @@ class LruCacheSimple
     if @key_index.include?(key)
       pop_to_front(key)
       @cache[key] = value
-      return true
 
     else
       # If the cache is full, remove the least recently used key
@@ -32,8 +33,8 @@ class LruCacheSimple
       @cache[key] = value
       @key_index.unshift(key)
 
-      return true
     end
+    true
   end
 
   private
